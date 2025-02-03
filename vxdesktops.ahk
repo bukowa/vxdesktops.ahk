@@ -77,10 +77,10 @@ goToDesktopAndUpdateDisp(desktopNum) {
 ; - RAlt seemed to be more reliable, but would not work for example if task
 ;   manager was active.
 ; - Now trying Ctrl Alt N
-^!1::goToDesktopAndUpdateDisp(1)
-^!2::goToDesktopAndUpdateDisp(2)
-^!3::goToDesktopAndUpdateDisp(3)
-^!4::goToDesktopAndUpdateDisp(4)
-^!5::goToDesktopAndUpdateDisp(5)
-^!6::goToDesktopAndUpdateDisp(6)
-^!7::goToDesktopAndUpdateDisp(7)
+^!+1::goToDesktopAndUpdateDisp(1)  ; Ctrl + Alt + Shift + 1
+^!+2::goToDesktopAndUpdateDisp(2)  ; Ctrl + Alt + Shift + 2
+^!+3::goToDesktopAndUpdateDisp(3)  ; Ctrl + Alt + Shift + 3
+^!+4::goToDesktopAndUpdateDisp(4)  ; Ctrl + Alt + Shift + 4
+^!+5::goToDesktopAndUpdateDisp(5)  ; Ctrl + Alt + Shift + 5
+^!+6::goToDesktopAndUpdateDisp(6)  ; Ctrl + Alt + Shift + 6
+^!+7::goToDesktopAndUpdateDisp(7)  ; Ctrl + Alt + Shift + 7
